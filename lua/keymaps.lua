@@ -24,13 +24,6 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right win
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
--- Neotree
--- vim.keymap.set('n', '/', ':Neotree toggle current reveal_force_cwd<cr>')
--- vim.keymap.set('n', '|', ':Neotree reveal<cr>')
--- vim.keymap.set('n', 'gd', ':Neotree float reveal_file=<cfile> reveal_force_cwd<cr>')
--- vim.keymap.set('n', '<leader>b', ':Neotree toggle show buffers right<cr>')
--- vim.keymap.set('n', '<leader>s', ':Neotree float git_status<cr>')
-
 -- [[ Basic Autocommands ]]
 --  See :help lua-guide-autocommands
 
