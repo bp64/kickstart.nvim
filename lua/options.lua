@@ -1,6 +1,11 @@
 -- [[ Setting options ]]
 -- See `:help vim.opt`
 
+-- Set default tab width
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+
 -- Relative line numbers with current line
 vim.opt.number = true
 vim.opt.relativenumber = true
